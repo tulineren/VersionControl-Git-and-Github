@@ -51,4 +51,8 @@ git config user.name
 git config user.email
 - Ayarlı olan e-posta adresini görüntüler.
 
+**Commit**, Git’te projede yapılan değişikliklerin belirli bir açıklama (commit mesajı) ile kaydedilmesini sağlayan bir işlemdir; her commit projenin o anki durumunu saklar ve gerektiğinde önceki sürümlere geri dönülmesine imkân tanır.
+## Git Görselleştirme
+
+![Git commit ve branch yapısı](images/git-visual.png)
 
