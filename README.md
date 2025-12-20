@@ -10,29 +10,29 @@
 
 pwd    : Bulunulan dizinin tam yolunu gösterir  
 ls     : Dizindeki dosya ve klasörleri listeler  
-cd     → Dizin değiştirmek için kullanılır  
-cd ..  → Bir üst dizine geçer  
-clear  → Terminal ekranını temizler  
+cd     : Dizin değiştirmek için kullanılır  
+cd ..  : Bir üst dizine geçer  
+clear  : Terminal ekranını temizler  
 
 
 
 ### Dosya ve Klasör İşlemleri
 
--mkdir: Yeni bir klasör oluşturur.
+mkdir  : Yeni bir klasör oluşturur.
   Örnek: mkdir GitKursu
--touch: Yeni bir dosya oluşturur.
+touch  : Yeni bir dosya oluşturur.
   Örnek: touch not.txt
 -Terminal kullanarak dosya ve klasör oluşturabiliriz.
 
 ### Dosya Silme Komutları
 
-rm → Dosya siler  
+rm     : Dosya siler  
   Örnek: rm not.txt
-rm -rf → Klasör ve içeriğini geri dönüşsüz siler
+rm -rf : Klasör ve içeriğini geri dönüşsüz siler
   Örnek: rm -rf GitKursu
 
 #### rm ve rm -rf Arasındaki Fark
 
--rm → Tekil dosyalar için kullanılır
--rm -rf → Klasörleri ve içindeki her şeyi siler
+rm     : Tekil dosyalar için kullanılır
+rm -rf : Klasörleri ve içindeki her şeyi siler
 -rm -rf daha tehlikelidir, yanlış kullanılırsa önemli dosyalar silinebilir
