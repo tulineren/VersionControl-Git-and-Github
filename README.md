@@ -8,7 +8,7 @@
 
 ## Terminal Kullanımı (Temel Komutlar)
 
-pwd    → Bulunulan dizinin tam yolunu gösterir  
+**pwd**    → Bulunulan dizinin tam yolunu gösterir  
 ls     → Dizindeki dosya ve klasörleri listeler  
 cd     → Dizin değiştirmek için kullanılır  
 cd ..  → Bir üst dizine geçer  
