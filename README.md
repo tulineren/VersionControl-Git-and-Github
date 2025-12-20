@@ -39,10 +39,10 @@ rm -rf : Klasörleri ve içindeki her şeyi siler.
 
 ## Git Config Komutları
 
-git config --global user.name "Tülin Eren"
+git config --global user.name "Ad Soyad"
 - Git’te yapılan commit’lerde görünen adını ayarlar.
 
-git config --global user.email "erentulin5@gmail.com"
+git config --global user.email "email@example.com"
 - Commit’leri GitHub hesabınla eşleştiren e-posta adresini ayarlar.
 
 git config user.name
@@ -50,4 +50,5 @@ git config user.name
 
 git config user.email
 - Ayarlı olan e-posta adresini görüntüler.
+
 
