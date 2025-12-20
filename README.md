@@ -1,4 +1,4 @@
-# Versiyon Kontrolleri: Git ve Github Kullanımı #
+-# Versiyon Kontrolleri: Git ve Github Kullanımı #
 ## Git Nedir?
 - Yazılım projelerinde kullanılan bir versiyon kontrol sistemidir.
 - Dosyalarda yapılan değişiklikleri kaydeder(örneğin oyun geliştirirken arayüzde yaptığım değişiklikleri düzenli olarak kaydediyordum).
@@ -58,5 +58,5 @@ git config user.email
 
 - **git status**: Çalışma dizininin durumunu gösterir; hangi dosyaların değiştiğini, hangilerinin commit’e hazır olduğunu belirtir.
 - **git init**: Bulunulan klasörü bir Git deposu haline getirir ve versiyon kontrolünü başlatır.
-**ls -la**: Bulunulan dizindeki tüm dosya ve klasörleri (gizli dosyalar dahil) detaylı şekilde listeler.
+- **ls -la**: Bulunulan dizindeki tüm dosya ve klasörleri (gizli dosyalar dahil) detaylı şekilde listeler.
 
