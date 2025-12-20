@@ -1,4 +1,4 @@
-# Versiyon Kontrolleri: Git and Github Kullanımı #
+# Versiyon Kontrolleri: Git ve Github Kullanımı #
 ## Git Nedir?
 - Yazılım projelerinde kullanılan bir versiyon kontrol sistemidir.
 - Dosyalarda yapılan değişiklikleri kaydeder(örneğin oyun geliştirirken arayüzde yaptığım değişiklikleri düzenli olarak kaydediyordum).
