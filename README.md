@@ -36,3 +36,18 @@ rm -rf : Klasör ve içeriğini geri dönüşsüz siler.
 rm     : Tekil dosyalar için kullanılır.
 rm -rf : Klasörleri ve içindeki her şeyi siler.
 - rm -rf daha tehlikelidir, yanlış kullanılırsa önemli dosyalar silinebilir.
+
+## Git Config Komutları
+
+git config --global user.name "Tülin Eren"
+- Git’te yapılan commit’lerde görünen adını ayarlar.
+
+git config --global user.email "erentulin5@gmail.com"
+- Commit’leri GitHub hesabınla eşleştiren e-posta adresini ayarlar.
+
+git config user.name
+- Ayarlı olan kullanıcı adını görüntüler.
+
+git config user.email
+- Ayarlı olan e-posta adresini görüntüler.
+
