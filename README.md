@@ -8,11 +8,12 @@
 
 ## Terminal Kullanımı (Temel Komutlar)
 
-pwd     Bulunulan dizinin (klasörün) tam yolunu gösterir  
-ls      Dizindeki dosya ve klasörleri listeler  
-cd      Dizin değiştirmek için kullanılır  
-cd ..   Bir üst dizine geçer  
-clear  Terminal ekranını temizler  
+pwd    → Bulunulan dizinin tam yolunu gösterir  
+ls     → Dizindeki dosya ve klasörleri listeler  
+cd     → Dizin değiştirmek için kullanılır  
+cd ..  → Bir üst dizine geçer  
+clear  → Terminal ekranını temizler  
+
 
 
 ### Dosya ve Klasör İşlemleri
