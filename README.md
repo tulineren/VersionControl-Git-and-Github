@@ -1,4 +1,4 @@
-# VersionControl-Git-and-Github
+# VersionControl:-Git-and-Github
 # Git Nedir?
 Yazılım projelerinde kullanılan bir versiyon kontrol sistemidir.
 
