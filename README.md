@@ -8,11 +8,11 @@
 
 ## Terminal Kullanımı (Temel Komutlar)
 
-pwd    : Bulunulan dizinin tam yolunu gösterir  
-ls     : Dizindeki dosya ve klasörleri listeler  
-cd     : Dizin değiştirmek için kullanılır  
-cd ..  : Bir üst dizine geçer  
-clear  : Terminal ekranını temizler  
+pwd    : Bulunulan dizinin tam yolunu gösterir. 
+ls     : Dizindeki dosya ve klasörleri listeler.  
+cd     : Dizin değiştirmek için kullanılır.  
+cd ..  : Bir üst dizine geçer.
+clear  : Terminal ekranını temizler.  
 
 
 
@@ -26,13 +26,13 @@ touch  : Yeni bir dosya oluşturur.
 
 ### Dosya Silme Komutları
 
-rm     : Dosya siler  
+rm     : Dosya siler.  
  Örnek : rm not.txt
-rm -rf : Klasör ve içeriğini geri dönüşsüz siler
+rm -rf : Klasör ve içeriğini geri dönüşsüz siler.
  Örnek : rm -rf GitKursu
 
 #### rm ve rm -rf Arasındaki Fark
 
-rm     : Tekil dosyalar için kullanılır
-rm -rf : Klasörleri ve içindeki her şeyi siler
-- rm -rf daha tehlikelidir, yanlış kullanılırsa önemli dosyalar silinebilir
+rm     : Tekil dosyalar için kullanılır.
+rm -rf : Klasörleri ve içindeki her şeyi siler.
+- rm -rf daha tehlikelidir, yanlış kullanılırsa önemli dosyalar silinebilir.
