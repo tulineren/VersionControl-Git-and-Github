@@ -54,6 +54,7 @@ git config user.email
 **Commit**, Git’te projede yapılan değişikliklerin belirli bir açıklama (commit mesajı) ile kaydedilmesini sağlayan bir işlemdir; her commit projenin o anki durumunu saklar ve gerektiğinde önceki sürümlere geri dönülmesine imkân tanır.
 ## Git Görselleştirme
 
-![Git commit ve branch yapısı](images/git-visual.png)
+![Git görselleştirme](images/git-visual.png)
+
 
 
