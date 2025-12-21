@@ -60,12 +60,12 @@ git config user.email
 - **git init**: Bulunulan klasörü bir Git deposu haline getirir ve versiyon kontrolünü başlatır.
 - **ls -la**: Bulunulan dizindeki tüm dosya ve klasörleri (gizli dosyalar dahil) detaylı şekilde listeler.
 
-git add: Yapılan değişiklikleri stage alanına ekler (commit’e hazırlık yapar).
-git commit -m "İlk mesaj yazıldı": Stage alanındaki değişiklikleri, verilen mesajla birlikte kalıcı olarak kaydeder.
-git log: Yapılan commit’lerin geçmişini listeler.
-Commit hash’i:
-git log çıktısında her commit’e ait bir hash (benzersiz kimlik) bulunur.
-Bu hash’ler birbirinden farklıdır ve her commit’i tekil olarak temsil eder.
-git commit -a: Daha önce izlenen (tracked) dosyalardaki değişiklikleri otomatik olarak stage edip commit eder.
-(Yeni dosyaları kapsamaz.)
-git add .: Bulunulan dizindeki tüm değişiklikleri (yeni dosyalar dahil) stage alanına ekler.
+- git add: Yapılan değişiklikleri stage alanına ekler (commit’e hazırlık yapar).
+  git commit -m "İlk mesaj yazıldı": Stage alanındaki değişiklikleri, verilen mesajla birlikte kalıcı olarak kaydeder.
+- git log: Yapılan commit’lerin geçmişini listeler.
+- Commit hash’i:
+  git log çıktısında her commit’e ait bir hash (benzersiz kimlik) bulunur.
+  Bu hash’ler birbirinden farklıdır ve her commit’i tekil olarak temsil eder.
+- git commit -a: Daha önce izlenen (tracked) dosyalardaki değişiklikleri otomatik olarak stage edip commit eder.
+  (Yeni dosyaları kapsamaz.)
+- git add .: Bulunulan dizindeki tüm değişiklikleri (yeni dosyalar dahil) stage alanına ekler.
