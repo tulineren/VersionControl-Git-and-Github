@@ -16,6 +16,11 @@ touch  : Yeni bir dosya oluşturur.
  Örnek : touch not.txt
 - Terminal kullanarak dosya ve klasör oluşturabiliriz.
 
+### pwd
+Bulunulan dizinin tam yolunu gösterir.
+
+```bash
+pwd
 
 ls
 
