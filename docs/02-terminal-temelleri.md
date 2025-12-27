@@ -39,6 +39,7 @@ Bir üst dizine geçer.
 
 ```bash
 cd ..
+/c/Users
 ```
 
 ### clear
