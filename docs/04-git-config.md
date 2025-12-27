@@ -13,11 +13,13 @@ git config --global user.email "email@example.com"
 
 ```bash
 git config user.name
+Ad Soyad
 ```
 - Ayarlı olan kullanıcı adını görüntüler.
 
 ```bash
 git config user.email
+email@example.com
 ```
 - Ayarlı olan e-posta adresini görüntüler.
 
