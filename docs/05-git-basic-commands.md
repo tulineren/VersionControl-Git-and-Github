@@ -1,7 +1,7 @@
 ## Git Temel Komutlar
 
 ### git status
--  Çalışma dizininin durumunu gösterir; hangi dosyaların değiştiğini, hangilerinin commit’e hazır olduğunu belirtir.
+Çalışma dizininin durumunu gösterir; hangi dosyaların değiştiğini, hangilerinin commit’e hazır olduğunu belirtir.
  
 ```bash
 git status
