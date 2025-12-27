@@ -15,3 +15,9 @@ mkdir  : Yeni bir klasör oluşturur.
 touch  : Yeni bir dosya oluşturur.
  Örnek : touch not.txt
 - Terminal kullanarak dosya ve klasör oluşturabiliriz.
+
+
+ls
+
+Dizindeki dosya ve klasörleri listeler.
+ls
