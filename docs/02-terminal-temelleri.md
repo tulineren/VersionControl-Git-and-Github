@@ -6,6 +6,7 @@ Bulunulan dizinin tam yolunu gösterir.
 ```bash
 pwd
 /c/Users/TulinEren
+```
 
 ### ls
 Dizindeki dosya ve klasörleri listeler.
@@ -24,24 +25,28 @@ ls
  Downloads/
  Favorites/
  Links/
+```
 
 ### cd
 Dizin değiştirmek için kullanılır
 
 ```bash
 cd Desktop, cd Documents
+```
 
 ### cd ..
 Bir üst dizine geçer.
 
 ```bash
 cd ..
+```
 
 ### clear
 Terminal ekranını temizler.
 
 ```bash
 clear
+```
 
 ### Dosya ve Klasör İşlemleri
 
@@ -50,11 +55,13 @@ Yeni bir klasör oluşturur.
 
 ```bash
 mkdir GitKursu
+```
 
 ### touch
 Yeni bir dosya oluşturur.
 
  ```bash
 touch not.txt
+```
 
 - Terminal kullanarak dosya ve klasör oluşturabiliriz.
