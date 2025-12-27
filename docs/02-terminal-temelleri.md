@@ -2,7 +2,8 @@
 
 pwd    : Bulunulan dizinin tam yolunu gösterir. 
 ls     : Dizindeki dosya ve klasörleri listeler.  
-cd     : Dizin değiştirmek için kullanılır(Örnek: cd Desktop). 
+cd     : Dizin değiştirmek için kullanılır
+  Örnek: cd Desktop
 cd ..  : Bir üst dizine geçer.
 clear  : Terminal ekranını temizler.  
 
