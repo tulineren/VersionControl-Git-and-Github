@@ -90,10 +90,10 @@ Amaç:
 Şablonlar: O dile veya araca özel olarak yaygın ignore edilen dosyaları içerir.
 
 ### Popüler Template Örnekleri
-Python → __pycache__/, .venv/
-Node → node_modules/
-Java → target/
-Unity → Library/, Temp/
+Python → __pycache__/, .venv/ |
+Node → node_modules/ |
+Java → target/ |
+Unity → Library/, Temp/ |
 VisualStudio / JetBrains → .vs/, .idea/
 
 ### Neden Template Kullanılır?
