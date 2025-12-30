@@ -1,17 +1,21 @@
 ## Git Temel Komutlar
 
+
+### git init
+- Bulunulan klasörü bir Git deposu haline getirir ve versiyon kontrolünü başlatır.
+- Klasörün içine gizli bir .git dizini oluşturur. Bu .git klasörü, Git’in tüm geçmiş ve ayar bilgilerini tutar.
+- Bu işlemden sonra Git, klasörde yapılan dosya değişikliklerini takip edebilir.
+- Henüz dosyalar izlenmez; bunun için git add komutu kullanılır.
+
+```bash
+git init
+```
+
 ### git status
 Çalışma dizininin durumunu gösterir; hangi dosyaların değiştiğini, hangilerinin commit’e hazır olduğunu belirtir.
  
 ```bash
 git status
-```
-
-### git init
-Bulunulan klasörü bir Git deposu haline getirir ve versiyon kontrolünü başlatır.
-
-```bash
-git init
 ```
 
 ### ls -la
@@ -60,3 +64,40 @@ Bulunulan dizindeki tüm değişiklikleri (yeni dosyalar dahil) stage alanına e
 ```bash
 git add .
 ```
+
+### .gitignore Nedir?
+- .gitignore, Git’in hangi dosya ve klasörleri takip ETMEMESİ gerektiğini belirten dosyadır.
+- İçine yazılan dosyalar commit edilmez ve Git geçmişine girmez.
+- Genellikle: Geçici dosyalar, derleme çıktıları, IDE ayar dosyaları, gizli bilgiler (token, config vb.)için kullanılır.
+- Projenin ana dizininde bulunur.
+- Takip edilmeyen dosyalar git status çıktısında görünmez.
+
+```bash
+__pycache__/
+node_modules/
+.env
+*.log
+```
+
+### GitHub’daki .gitignore Template (Şablon) Dosyaları
+GitHub, farklı programlama dilleri ve araçlar için hazır .gitignore şablonları sunar.
+
+Amaç:
+- Gereksiz dosyaların yanlışlıkla repoya eklenmesini önlemek
+- Standart ve temiz repo yapısı oluşturmak
+- Yeni repo oluştururken “Add .gitignore” seçeneğiyle eklenebilir.
+
+Şablonlar: O dile veya araca özel olarak yaygın ignore edilen dosyaları içerir.
+
+### Popüler Template Örnekleri
+Python → __pycache__/, .venv/
+Node → node_modules/
+Java → target/
+Unity → Library/, Temp/
+VisualStudio / JetBrains → .vs/, .idea/
+
+### Neden Template Kullanılır?
+- Her dosyayı tek tek düşünmek gerekmez.
+- Sektör standardına uygundur.
+- Yeni başlayanlar için hataları azaltır.
+- Takım projelerinde düzen sağlar.
