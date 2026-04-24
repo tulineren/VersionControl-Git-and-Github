@@ -77,7 +77,7 @@ Merhaba Git
 ```
 Merge sırasında conflict oluşur.
 
-Conflict Görünümü
+#### Conflict Görünümü
 
 Git dosyanın içine şu işaretleri ekler:
 ```bash
@@ -89,10 +89,10 @@ Merhaba Git
 ```
 
 #### Nasıl Çözülür?
-Dosyayı aç
-Hangi kodun kalacağına karar ver (veya birleştir)
-İşaretleri sil (<<<<<<<, =======, >>>>>>>)
-Dosyayı kaydet
+- Dosyayı aç
+- Hangi kodun kalacağına karar ver (veya birleştir)
+- İşaretleri sil (<<<<<<<, =======, >>>>>>>)
+- Dosyayı kaydet
 ```bash
 git add .
 git commit -m "merge conflict çözüldü"
