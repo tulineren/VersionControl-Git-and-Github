@@ -54,3 +54,46 @@ A---B   (main)
 
 A---B---C---D   (main)
 ```
+
+### Merge Conflict Nedir?
+
+Merge conflict, iki branch’te aynı dosyanın aynı satırları farklı şekilde değiştirildiğinde ortaya çıkar. Git hangi değişikliğin doğru olduğuna karar veremez.
+
+Aynı dosyanın aynı satırları farklı branch’lerde değiştirildiyse, git merge veya git pull sırasında olur.
+
+#### Basit Senaryo
+```bash
+A---B   (main)
+     \
+      C   (feature)
+```
+main branch’inde:
+```bash
+Merhaba Dünya
+```
+feature branch’inde:
+```bash
+Merhaba Git
+```
+Merge sırasında conflict oluşur.
+
+Conflict Görünümü
+
+Git dosyanın içine şu işaretleri ekler:
+```bash
+<<<<<<< HEAD
+Merhaba Dünya
+=======
+Merhaba Git
+>>>>>>> feature
+```
+
+#### Nasıl Çözülür?
+Dosyayı aç
+Hangi kodun kalacağına karar ver (veya birleştir)
+İşaretleri sil (<<<<<<<, =======, >>>>>>>)
+Dosyayı kaydet
+```bash
+git add .
+git commit -m "merge conflict çözüldü"
+```
